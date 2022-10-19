@@ -2,7 +2,7 @@
 
 const hacker1="Annielli";
 //console.log(`The driver's name is ${hacker1}`);
-const hacker2="Marianne";
+const hacker2="Bob";
 //console.log(`The navigator's name is ${hacker2}`)
 
 
@@ -25,6 +25,15 @@ if (hacker1.length == hacker2.length){
 // Iteration 3: Loops
 
 
-console.log(hacker1.split('').join(' '));
+console.log(hacker1.split('').join(' ').toUpperCase());
+
+let reverse="";
+for(let i=hacker1.length-1; i>=0; i--){
+    
+    reverse+=hacker1[i]
+
+}
+console.log(reverse)
+
 
 
